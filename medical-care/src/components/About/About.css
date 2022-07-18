@@ -1,0 +1,13 @@
+.about-me {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 70px;
+}
+@media screen and (max-width: 576px) {
+  .about-me {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-me img {
+    width: 100%;
+  }
+}
