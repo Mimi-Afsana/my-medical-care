@@ -23,6 +23,7 @@ const SocialLogin = () => {
   }
 
   return (
+    // signup system
     <div className="container">
       <div className="d-flex align-items-center ">
         <div style={{ height: "1px" }} className="bg-primary w-50"></div>
